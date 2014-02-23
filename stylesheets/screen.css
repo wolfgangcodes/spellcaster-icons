@@ -60,6 +60,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+.main_content * {
+  box-sizing: border-box;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -111,6 +114,36 @@ header, footer, section {
 }
 
 /* STYLES */
+.caption {
+  margin-top: 5px;
+  font-size: smaller;
+}
+.icon-row {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.icon-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.icon-container .icon {
+  padding:5px;
+  border-radius: 37%;
+  border: 3px solid rgba(251, 255, 251, 0);
+}
+.icon-xsm { font-size: 1em;}
+.icon-sm { font-size: 2em;}
+.icon-med { font-size: 3em;}
+.icon-lg { font-size: 5em;}
+
+.icon-container .icon:hover{
+  border: 3px solid #CD596B;
+  background: #7C334F;
+  color: #ECE4D8;
+}
 
 div.shell {
   display: block;
